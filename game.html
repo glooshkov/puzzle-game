@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>match 3 tile v1 - hello world</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" type="text/css" rel="stylesheet" media="all">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+
+    <script src="app_card_status.js"></script>
+    <script src="app_sample.js"></script>
+
+    <script src="lib.js"></script>
+  </head>
+  <body>
+    <div class="wr-ios-viewport wr-game">
+      <div class="wr-cards">
+        <div class="cards">
+
+        </div>
+        <div class="cards-board">
+          <div class="slot slot0"></div>
+          <div class="slot slot1"></div>
+          <div class="slot slot2"></div>
+          <div class="slot slot3"></div>
+          <div class="slot slot4"></div>
+          <div class="slot slot5"></div>
+          <div class="slot slot6"></div>
+          <div class="slot slot7"></div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: center; margin-top: 60px">
+        <button class="wr-cards" style="background: url(img/board_button_res.png); width: 54px; height: 66px; border: none; margin: 0 10px" onclick="app.resCards()"/>
+        <button class="wr-cards" style="background: url(img/board_button_mag.png); width: 54px; height: 66px; border: none; margin: 0 10px" onclick="app.magnetCards()"/>
+      </div>
+
+
+    </div>
+  </body>
+</html>

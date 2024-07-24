@@ -1,0 +1,163 @@
+body{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: #d8d8d8;
+}
+.wr-ios-viewport{
+  width: 430px;
+  height: 932px;
+  background: #e3e3e3;
+  background-image: url('img/bg.jpg');
+  /*background-image: url('img/bg1-bad-murat2.png'), url('img/bg.jpg');*/
+  background-size: cover;
+}
+.wr-9-16{
+
+  background: white;
+}
+
+.wr-cards{
+
+}
+.wr-cards .cards{
+  position: relative;
+  background: #ff34341f;
+  height: 536px;
+}
+.wr-cards .card{
+  width: 52px;
+  height: 58px;
+  background-size: cover;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* код ниже можно генерировать из данных из конфига */
+.wr-cards .card.c01{ background-image: url(img/1.png);}
+.wr-cards .card.c02{ background-image: url(img/2.png);}
+.wr-cards .card.c03{ background-image: url(img/3.png);}
+.wr-cards .card.c04{ background-image: url(img/4.png);}
+.wr-cards .card.c05{ background-image: url(img/5.png);}
+.wr-cards .card.c06{ background-image: url(img/6.png);}
+.wr-cards .card.c07{ background-image: url(img/7.png);}
+.wr-cards .card.c08{ background-image: url(img/8.png);}
+.wr-cards .card.c09{ background-image: url(img/9.png);}
+.wr-cards .card.c10{ background-image: url(img/10.png);}
+.wr-cards .card.c11{ background-image: url(img/11.png);}
+.wr-cards .card.c12{ background-image: url(img/12.png);}
+.wr-cards .card.c13{ background-image: url(img/13.png);}
+.wr-cards .card.c14{ background-image: url(img/14.png);}
+.wr-cards .card.c15{ background-image: url(img/15.png);}
+.wr-cards .card.c16{ background-image: url(img/16.png);}
+.wr-cards .card.c17{ background-image: url(img/17.png);}
+.wr-cards .card.c18{ background-image: url(img/18.png);}
+.wr-cards .card.c19{ background-image: url(img/19.png);}
+.wr-cards .card.c20{ background-image: url(img/20.png);}
+.wr-cards .card.c21{ background-image: url(img/21.png);}
+.wr-cards .card.c22{ background-image: url(img/22.png);}
+.wr-cards .card.c23{ background-image: url(img/23.png);}
+
+.wr-cards .card.disabled.c01{ background-image: url(img/1b.png);}
+.wr-cards .card.disabled.c02{ background-image: url(img/2b.png);}
+.wr-cards .card.disabled.c03{ background-image: url(img/3b.png);}
+.wr-cards .card.disabled.c04{ background-image: url(img/4b.png);}
+.wr-cards .card.disabled.c05{ background-image: url(img/5b.png);}
+.wr-cards .card.disabled.c06{ background-image: url(img/6b.png);}
+.wr-cards .card.disabled.c07{ background-image: url(img/7b.png);}
+.wr-cards .card.disabled.c08{ background-image: url(img/8b.png);}
+.wr-cards .card.disabled.c09{ background-image: url(img/9b.png);}
+.wr-cards .card.disabled.c10{ background-image: url(img/10b.png);}
+.wr-cards .card.disabled.c11{ background-image: url(img/11b.png);}
+.wr-cards .card.disabled.c12{ background-image: url(img/12b.png);}
+.wr-cards .card.disabled.c13{ background-image: url(img/13b.png);}
+.wr-cards .card.disabled.c14{ background-image: url(img/14b.png);}
+.wr-cards .card.disabled.c15{ background-image: url(img/15b.png);}
+.wr-cards .card.disabled.c16{ background-image: url(img/16b.png);}
+.wr-cards .card.disabled.c17{ background-image: url(img/17b.png);}
+.wr-cards .card.disabled.c18{ background-image: url(img/18b.png);}
+.wr-cards .card.disabled.c19{ background-image: url(img/19b.png);}
+.wr-cards .card.disabled.c20{ background-image: url(img/20b.png);}
+.wr-cards .card.disabled.c21{ background-image: url(img/21b.png);}
+.wr-cards .card.disabled.c22{ background-image: url(img/22b.png);}
+.wr-cards .card.disabled.c23{ background-image: url(img/23b.png);}
+
+
+
+.wr-cards .cards-board{
+  margin-top: 124px;
+  margin-left: 16.5px;
+  margin-right: 16.5px;
+  width: 396.67px;
+  height: 65.67px;
+  background-image: url(img/board.png);
+  background-size: cover;
+  position: relative;
+  border-radius: 13px;
+}
+
+.wr-cards .cards-board .slot{
+  position: absolute;
+  width: 47.33px;
+  height: 52.33px;
+  box-sizing: border-box;
+  /*border: 1px solid red;*/
+  top: 6.6px;
+}
+.wr-cards .cards-board .slot0{
+  left: 6.6px;
+}
+.wr-cards .cards-board .slot1{
+  left: 54.6px;
+}
+.wr-cards .cards-board .slot2{
+  left: 102.6px;
+}
+.wr-cards .cards-board .slot3{
+  left: 150.6px;
+}
+.wr-cards .cards-board .slot4{
+  left: 198.6px;
+}
+.wr-cards .cards-board .slot5{
+  left:246.6px;
+}
+.wr-cards .cards-board .slot6{
+  left:294.6px;
+}
+.wr-cards .cards-board .slot7{
+  left:342.6px;
+}
+
+
+.wr-cards .cards-board.redpulse{
+  animation: redpulse 2s infinite;
+}
+@-webkit-keyframes redpulse {
+  0% {
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(255, 0, 90, 0.61);
+  }
+  100% {
+      -webkit-box-shadow: 0px 0px 28px 0px rgb(255 0 0)
+  }
+}
+/*
+-webkit-box-shadow: 0px 0px 28px 0px rgba(255, 0, 90, 0.61);
+-moz-box-shadow: 0px 0px 28px 0px rgba(255, 0, 90, 0.61);
+box-shadow: 0px 0px 28px 0px rgba(255, 0, 90, 0.61);
+*/
+/*
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}*/
